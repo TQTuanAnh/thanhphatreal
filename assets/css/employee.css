@@ -1,0 +1,69 @@
+#previewImage {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	cursor: inherit;
+	display: block;
+}
+
+.file-preview {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	padding: 8px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.cus-err-msg {
+	color: red;
+	display: block;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  #previewImage{
+    height:150px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #previewImage{
+    height:160px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #previewImage{
+    height:170px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #previewImage{
+    height:180px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #previewImage{
+    height:250px;
+  }
+}
+
